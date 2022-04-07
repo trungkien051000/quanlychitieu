@@ -1,1 +1,1 @@
-export const COOKIE_KEY = 'hmiAcessToken';
+export const COOKIE_KEY = 'AcessToken';

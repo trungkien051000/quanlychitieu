@@ -1,4 +1,4 @@
-package com.vnext.hmi;
+package com.quanlychitieu;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "HMIPoc";
+        return "ExpenseTracker";
     }
 
     @Override

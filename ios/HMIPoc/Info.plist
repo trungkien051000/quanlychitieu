@@ -34,7 +34,7 @@
 	<key>FacebookAppID</key>
 	<string>498287811068961</string>
 	<key>FacebookDisplayName</key>
-	<string>HMIPoc</string>
+	<string>ExpenseTracker</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>

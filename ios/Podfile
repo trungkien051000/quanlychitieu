@@ -3,11 +3,11 @@ require_relative '../node_modules/react-native/scripts/react_native_pods'
 
 platform :ios, '10.0'
 
-target 'HMIPoc' do
+target 'ExpenseTracker' do
   config = use_native_modules!
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'HMIPocTests' do
+  target 'ExpenseTrackerTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -22,10 +22,10 @@ target 'HMIPoc' do
   end
 end
 
-target 'HMIPoc-tvOS' do
-  # Pods for HMIPoc-tvOS
+target 'ExpenseTracker-tvOS' do
+  # Pods for Expense Tracker-tvOS
 
-  target 'HMIPoc-tvOSTests' do
+  target 'ExpenseTracker-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
