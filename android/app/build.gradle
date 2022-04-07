@@ -79,6 +79,7 @@ import com.android.build.OutputFile
 project.ext.react = [
     entryFile: "index.tsx",
     enableHermes: false,  // clean and rebuild if changing
+    extraPackagerArgs: ["--reset-cache"],
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -137,11 +138,10 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy 'react-native-camera', 'general'
-        versionCode 50
-        versionName "0.0.57"
+        versionCode 1
+        versionName "0.0.3"
         multiDexEnabled true
         vectorDrawables.useSupportLibrary true
-        manifestPlaceholders = []
     }
     splits {
         abi {
@@ -208,8 +208,12 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation "androidx.annotation:annotation:1.1.0"
-    implementation project(':react-native-camera')
-    implementation project(':react-native-exit-app')
+    implementation(project(':react-native-maps')){
+        exclude group: 'com.google.android.gms', module: 'play-services-base'
+        exclude group: 'com.google.android.gms', module: 'play-services-maps'
+    }
+    implementation 'com.google.android.gms:play-services-base:17.2.1'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
     if (enableHermes) {
         def hermesPath = "../../node_modules/hermesvm/android/";
         debugImplementation files(hermesPath + "hermes-debug.aar")

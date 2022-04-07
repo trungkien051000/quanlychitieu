@@ -6,7 +6,7 @@ import { useTrans } from '@utils/hooks';
 const Home: IHomeScreen<IHomeScreenProps> = () => {
     const trans = useTrans();
 
-    return <Text>{trans.common.welcome}</Text>;
+    return <Text>{trans.home.title}</Text>;
 };
 
 export default Home;

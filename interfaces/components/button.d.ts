@@ -4,9 +4,10 @@ interface IButtonComponentProps extends IBaseCompProps {
     styleText?: object;
     styleIcon?: object;
     text?: string;
-    icon?: ImageSourcePropType;
-    iconResizeMode?: ImageResizeMode;
+    icon?: any;
+    iconResizeMode?: 'cover' | 'contain' | 'stretch' | 'repeat' | 'center';
     onPress?: () => void;
+    hitSlop?: object;
 }
 
 interface IButtonComponent<P = {}> extends IBaseComp<P> {}

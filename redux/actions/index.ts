@@ -1,3 +1,3 @@
-import { setLocale } from './common';
+import { setLocale, setModal, setNavbarBack, setNavbarSubmit, setToast } from './common';
 
-export { setLocale };
+export { setLocale, setModal, setToast, setNavbarSubmit, setNavbarBack };

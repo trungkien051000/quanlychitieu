@@ -1,10 +1,14 @@
 import { combineReducers } from 'redux';
-import { localeReducer } from './common';
 import { loaderReducer } from './api';
+import { localeReducer, modalReducer, toastReducer, navbarSubmitReducer, navbarBackReducer } from './common';
 
 const rootReducers = combineReducers({
-    locale: localeReducer,
     loader: loaderReducer,
+    locale: localeReducer,
+    modal: modalReducer,
+    toast: toastReducer,
+    navbarSubmit: navbarSubmitReducer,
+    navbarBack: navbarBackReducer,
 });
 export type ReduxStates = ReturnType<typeof rootReducers>;
 export default rootReducers;

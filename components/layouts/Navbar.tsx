@@ -10,7 +10,7 @@ const Navbar: INavbarComponent<INavbarComponentProps> = () => {
 };
 
 Navbar.defaultProps = {
-    isBack: false,
+    isHandleBack: false,
 };
 
 export default Navbar;
