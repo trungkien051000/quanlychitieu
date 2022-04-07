@@ -19,10 +19,10 @@
     "react",
     "redux"
   ],
-  "author": "<giangnc@vnext.com.vn>",
+  "author": "<trungkiendn2000@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.vnext.vn/hmi/hmi-app.git"
+    "url": "https://github.com/trungkien051000/quanlychitieu"
   },
   "license": "MIT",
   "dependencies": {

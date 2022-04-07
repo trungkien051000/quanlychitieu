@@ -1,4 +1,4 @@
-package com.vnext.hmi;
+package com.quanlychitieu;
 
 import android.app.Application;
 import android.util.Log;
