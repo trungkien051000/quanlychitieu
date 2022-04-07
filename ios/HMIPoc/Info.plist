@@ -29,12 +29,17 @@
 			</array>
 		</dict>
 	</array>
+	<array>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>FacebookAppID</key>
 	<string>498287811068961</string>
 	<key>FacebookDisplayName</key>
-	<string>ExpenseTracker</string>
+	<string>quanlychitieu</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSApplicationQueriesSchemes</key>

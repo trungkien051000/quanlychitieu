@@ -1,6 +1,11 @@
 interface IBaseAPIRes {
-    code?: number;
-    message?: string;
+    status?: string;
 }
 
-interface IErrorAPIRes extends IBaseAPIRes {}
+interface IErrorAPIRes extends IBaseAPIRes {
+    status?: string;
+    error?: {
+        code: number;
+        message: string;
+    };
+}

@@ -1,8 +1,11 @@
 import { StyleSheet } from 'react-native';
 
 const flexbox = StyleSheet.create({
-    dFlex: {
+    dFlex1: {
         flex: 1,
+    },
+    dFlex2: {
+        flex: 2,
     },
     flexColum: {
         flexDirection: 'column',
@@ -13,11 +16,17 @@ const flexbox = StyleSheet.create({
     alignItemsCenter: {
         alignItems: 'center',
     },
+    alignItemsEnd: {
+        alignItems: 'flex-end',
+    },
     alignSelfCenter: {
         alignSelf: 'center',
     },
     alignSelfStart: {
         alignSelf: 'flex-start',
+    },
+    alignSelfEnd: {
+        alignSelf: 'flex-end',
     },
     justifyBetween: {
         justifyContent: 'space-between',
@@ -27,6 +36,12 @@ const flexbox = StyleSheet.create({
     },
     justifyAround: {
         justifyContent: 'space-around',
+    },
+    justifyStart: {
+        justifyContent: 'flex-start',
+    },
+    justifyEnd: {
+        justifyContent: 'flex-end',
     },
     flexColumnReverse: {
         flexDirection: 'column-reverse',
