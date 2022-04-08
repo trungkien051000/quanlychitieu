@@ -1,9 +1,6 @@
 const CLIENT = {
     HOME: 'HOME',
-    SETTING: 'SETTING',
-    MESSAGE: 'MESSAGE',
-    LOCATION: 'LOCATION',
-    VEHICLE: 'VEHICLE',
+    CATEGORY: 'CATEGORY',
 };
 
 const API = {
