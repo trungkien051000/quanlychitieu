@@ -1,19 +1,19 @@
-import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
-import Navbar from '@components/layouts/Navbar';
-import { Home, Category } from '@screens/index';
-
+import { Category, Home } from '@screens/index';
 import { routes } from '@utils/constants';
 import { useTrans } from '@utils/hooks';
+import React from 'react';
 
-const Tab = createBottomTabNavigator();
+const RootApp = createBottomTabNavigator();
 const RouteApp: IRouteAppComponent<IRouteAppComponentProps> = ({ startScreen }) => {
+    const trans = useTrans();
+
     return (
-        <Tab.Navigator initialRouteName={startScreen}>
-            <Tab.Screen name={routes.CLIENT.HOME} component={Home} />
-            <Tab.Screen name={routes.CLIENT.CATEGORY} component={Category} />
-        </Tab.Navigator>
+        <RootApp.Navigator initialRouteName={startScreen}>
+            <RootApp.Screen name={routes.CLIENT.HOME} component={Home} />
+            <RootApp.Screen name={routes.CLIENT.CATEGORY} component={Category} />
+        </RootApp.Navigator>
     );
 };
+
 export default RouteApp;

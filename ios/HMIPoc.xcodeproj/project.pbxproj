@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* quanlychitieuPocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* quanlychitieuPocTests.m */; };
+		00E356F31AD99517003FC87E /* quanlychitieuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* quanlychitieuTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* quanlychitieuPocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* quanlychitieuPocTests.m */; };
-		5BDEBB6EE53A5DA6947E6EB2 /* libPods-quanlychitieuPoc-quanlychitieuPocTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5C8965E756A2F564AC91F0 /* libPods-quanlychitieuPoc-quanlychitieuPocTests.a */; };
-		79589FD2D7C804A13F77A087 /* libPods-quanlychitieuPoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D51F29908CDF3DE4EE5C43 /* libPods-quanlychitieuPoc.a */; };
-		A6C7F0A40CBAB9EB31DCB601 /* libPods-quanlychitieuPoc-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D89A24E3CC66534EF23A99 /* libPods-quanlychitieuPoc-tvOSTests.a */; };
-		F37E6C755B3250C56A4459B0 /* libPods-quanlychitieuPoc-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C327A82F785AEABBDEA3025B /* libPods-quanlychitieuPoc-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* quanlychitieuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* quanlychitieuTests.m */; };
+		5BDEBB6EE53A5DA6947E6EB2 /* libPods-quanlychitieu-quanlychitieuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5C8965E756A2F564AC91F0 /* libPods-quanlychitieu-quanlychitieuTests.a */; };
+		79589FD2D7C804A13F77A087 /* libPods-quanlychitieu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D51F29908CDF3DE4EE5C43 /* libPods-quanlychitieu.a */; };
+		A6C7F0A40CBAB9EB31DCB601 /* libPods-quanlychitieu-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4D89A24E3CC66534EF23A99 /* libPods-quanlychitieu-tvOSTests.a */; };
+		F37E6C755B3250C56A4459B0 /* libPods-quanlychitieu-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C327A82F785AEABBDEA3025B /* libPods-quanlychitieu-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,46 +28,46 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = quanlychitieuPoc;
+			remoteInfo = quanlychitieu;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "quanlychitieuPoc-tvOS";
+			remoteInfo = "quanlychitieu-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* quanlychitieuPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quanlychitieuPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* quanlychitieuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quanlychitieuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* quanlychitieuPocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quanlychitieuPocTests.m; sourceTree = "<group>"; };
-		0752E02D50E9DE83AF6BA620 /* Pods-quanlychitieuPoc-quanlychitieuPocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc-quanlychitieuPocTests.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc-quanlychitieuPocTests/Pods-quanlychitieuPoc-quanlychitieuPocTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* quanlychitieu - POC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quanlychitieu - POC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = quanlychitieuPoc/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = quanlychitieuPoc/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* quanlychitieuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quanlychitieuTests.m; sourceTree = "<group>"; };
+		0752E02D50E9DE83AF6BA620 /* Pods-quanlychitieu-quanlychitieuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu-quanlychitieuTests.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieu-quanlychitieuTests/Pods-quanlychitieu-quanlychitieuTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Quan Ly Chi Tieu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quan Ly Chi Tieu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = quanlychitieu/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = quanlychitieu/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = quanlychitieuPoc/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = quanlychitieuPoc/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = quanlychitieuPoc/main.m; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* quanlychitieuPoc-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quanlychitieuPoc-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* quanlychitieuPoc-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quanlychitieuPoc-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B5C8965E756A2F564AC91F0 /* libPods-quanlychitieuPoc-quanlychitieuPocTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieuPoc-quanlychitieuPocTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61695D27086DCB4ACB7E0BF2 /* Pods-quanlychitieuPocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPocTests.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPocTests/Pods-quanlychitieuPocTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7C2144E798BB7713FFCCE6B7 /* Pods-quanlychitieuPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc/Pods-quanlychitieuPoc.release.xcconfig"; sourceTree = "<group>"; };
-		7DA2A5376289A4353744619F /* Pods-quanlychitieuPoc-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc-tvOSTests/Pods-quanlychitieuPoc-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7FA3C0F932256267575940DF /* Pods-quanlychitieuPocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPocTests.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPocTests/Pods-quanlychitieuPocTests.release.xcconfig"; sourceTree = "<group>"; };
-		8A79397818C1CCCDB6BBBE52 /* Pods-quanlychitieuPoc-quanlychitieuPocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc-quanlychitieuPocTests.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc-quanlychitieuPocTests/Pods-quanlychitieuPoc-quanlychitieuPocTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8F34C6C224FD69E100EC0835 /* quanlychitieuPoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = quanlychitieuPoc.entitlements; path = quanlychitieuPoc/quanlychitieuPoc.entitlements; sourceTree = "<group>"; };
-		A4D89A24E3CC66534EF23A99 /* libPods-quanlychitieuPoc-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieuPoc-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AC7AA0B8FCF5A74455B2844D /* Pods-quanlychitieuPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc/Pods-quanlychitieuPoc.debug.xcconfig"; sourceTree = "<group>"; };
-		B5D51F29908CDF3DE4EE5C43 /* libPods-quanlychitieuPoc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieuPoc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C327A82F785AEABBDEA3025B /* libPods-quanlychitieuPoc-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieuPoc-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2EBA8584F8FD34CA0724C9F /* Pods-quanlychitieuPoc-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc-tvOSTests/Pods-quanlychitieuPoc-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		E1033CC06FB46A8FD1EF1A8D /* Pods-quanlychitieuPoc-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc-tvOS/Pods-quanlychitieuPoc-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		E804EAA3CD735BAC7AA37BB9 /* Pods-quanlychitieuPoc-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuPoc-tvOS.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieuPoc-tvOS/Pods-quanlychitieuPoc-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = quanlychitieu/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = quanlychitieu/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = quanlychitieu/main.m; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* quanlychitieu-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quanlychitieu-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* quanlychitieu-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "quanlychitieu-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5C8965E756A2F564AC91F0 /* libPods-quanlychitieu-quanlychitieuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieu-quanlychitieuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61695D27086DCB4ACB7E0BF2 /* Pods-quanlychitieuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuTests.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieuTests/Pods-quanlychitieuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C2144E798BB7713FFCCE6B7 /* Pods-quanlychitieu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieu/Pods-quanlychitieu.release.xcconfig"; sourceTree = "<group>"; };
+		7DA2A5376289A4353744619F /* Pods-quanlychitieu-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieu-tvOSTests/Pods-quanlychitieu-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FA3C0F932256267575940DF /* Pods-quanlychitieuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieuTests.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieuTests/Pods-quanlychitieuTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A79397818C1CCCDB6BBBE52 /* Pods-quanlychitieu-quanlychitieuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu-quanlychitieuTests.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieu-quanlychitieuTests/Pods-quanlychitieu-quanlychitieuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F34C6C224FD69E100EC0835 /* quanlychitieu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = quanlychitieu.entitlements; path = quanlychitieu/quanlychitieu.entitlements; sourceTree = "<group>"; };
+		A4D89A24E3CC66534EF23A99 /* libPods-quanlychitieu-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieu-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7AA0B8FCF5A74455B2844D /* Pods-quanlychitieu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieu/Pods-quanlychitieu.debug.xcconfig"; sourceTree = "<group>"; };
+		B5D51F29908CDF3DE4EE5C43 /* libPods-quanlychitieu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C327A82F785AEABBDEA3025B /* libPods-quanlychitieu-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-quanlychitieu-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EBA8584F8FD34CA0724C9F /* Pods-quanlychitieu-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieu-tvOSTests/Pods-quanlychitieu-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1033CC06FB46A8FD1EF1A8D /* Pods-quanlychitieu-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-quanlychitieu-tvOS/Pods-quanlychitieu-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E804EAA3CD735BAC7AA37BB9 /* Pods-quanlychitieu-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quanlychitieu-tvOS.release.xcconfig"; path = "Target Support Files/Pods-quanlychitieu-tvOS/Pods-quanlychitieu-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BDEBB6EE53A5DA6947E6EB2 /* libPods-quanlychitieuPoc-quanlychitieuPocTests.a in Frameworks */,
+				5BDEBB6EE53A5DA6947E6EB2 /* libPods-quanlychitieu-quanlychitieuTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79589FD2D7C804A13F77A087 /* libPods-quanlychitieuPoc.a in Frameworks */,
+				79589FD2D7C804A13F77A087 /* libPods-quanlychitieu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F37E6C755B3250C56A4459B0 /* libPods-quanlychitieuPoc-tvOS.a in Frameworks */,
+				F37E6C755B3250C56A4459B0 /* libPods-quanlychitieu-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,20 +101,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6C7F0A40CBAB9EB31DCB601 /* libPods-quanlychitieuPoc-tvOSTests.a in Frameworks */,
+				A6C7F0A40CBAB9EB31DCB601 /* libPods-quanlychitieu-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* quanlychitieuPocTests */ = {
+		00E356EF1AD99517003FC87E /* quanlychitieuTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* quanlychitieuPocTests.m */,
+				00E356F21AD99517003FC87E /* quanlychitieuTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = quanlychitieuPocTests;
+			path = quanlychitieuTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -125,10 +125,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* quanlychitieuPoc */ = {
+		13B07FAE1A68108700A75B9A /* quanlychitieu */ = {
 			isa = PBXGroup;
 			children = (
-				8F34C6C224FD69E100EC0835 /* quanlychitieuPoc.entitlements */,
+				8F34C6C224FD69E100EC0835 /* quanlychitieu.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -137,7 +137,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = quanlychitieuPoc;
+			name = quanlychitieu;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -145,10 +145,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				B5D51F29908CDF3DE4EE5C43 /* libPods-quanlychitieuPoc.a */,
-				C327A82F785AEABBDEA3025B /* libPods-quanlychitieuPoc-tvOS.a */,
-				A4D89A24E3CC66534EF23A99 /* libPods-quanlychitieuPoc-tvOSTests.a */,
-				3B5C8965E756A2F564AC91F0 /* libPods-quanlychitieuPoc-quanlychitieuPocTests.a */,
+				B5D51F29908CDF3DE4EE5C43 /* libPods-quanlychitieu.a */,
+				C327A82F785AEABBDEA3025B /* libPods-quanlychitieu-tvOS.a */,
+				A4D89A24E3CC66534EF23A99 /* libPods-quanlychitieu-tvOSTests.a */,
+				3B5C8965E756A2F564AC91F0 /* libPods-quanlychitieu-quanlychitieuTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,16 +156,16 @@
 		4DC5FA0648F16509A7CD86EE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AC7AA0B8FCF5A74455B2844D /* Pods-quanlychitieuPoc.debug.xcconfig */,
-				7C2144E798BB7713FFCCE6B7 /* Pods-quanlychitieuPoc.release.xcconfig */,
-				E1033CC06FB46A8FD1EF1A8D /* Pods-quanlychitieuPoc-tvOS.debug.xcconfig */,
-				E804EAA3CD735BAC7AA37BB9 /* Pods-quanlychitieuPoc-tvOS.release.xcconfig */,
-				7DA2A5376289A4353744619F /* Pods-quanlychitieuPoc-tvOSTests.debug.xcconfig */,
-				D2EBA8584F8FD34CA0724C9F /* Pods-quanlychitieuPoc-tvOSTests.release.xcconfig */,
-				61695D27086DCB4ACB7E0BF2 /* Pods-quanlychitieuPocTests.debug.xcconfig */,
-				7FA3C0F932256267575940DF /* Pods-quanlychitieuPocTests.release.xcconfig */,
-				8A79397818C1CCCDB6BBBE52 /* Pods-quanlychitieuPoc-quanlychitieuPocTests.debug.xcconfig */,
-				0752E02D50E9DE83AF6BA620 /* Pods-quanlychitieuPoc-quanlychitieuPocTests.release.xcconfig */,
+				AC7AA0B8FCF5A74455B2844D /* Pods-quanlychitieu.debug.xcconfig */,
+				7C2144E798BB7713FFCCE6B7 /* Pods-quanlychitieu.release.xcconfig */,
+				E1033CC06FB46A8FD1EF1A8D /* Pods-quanlychitieu-tvOS.debug.xcconfig */,
+				E804EAA3CD735BAC7AA37BB9 /* Pods-quanlychitieu-tvOS.release.xcconfig */,
+				7DA2A5376289A4353744619F /* Pods-quanlychitieu-tvOSTests.debug.xcconfig */,
+				D2EBA8584F8FD34CA0724C9F /* Pods-quanlychitieu-tvOSTests.release.xcconfig */,
+				61695D27086DCB4ACB7E0BF2 /* Pods-quanlychitieuTests.debug.xcconfig */,
+				7FA3C0F932256267575940DF /* Pods-quanlychitieuTests.release.xcconfig */,
+				8A79397818C1CCCDB6BBBE52 /* Pods-quanlychitieu-quanlychitieuTests.debug.xcconfig */,
+				0752E02D50E9DE83AF6BA620 /* Pods-quanlychitieu-quanlychitieuTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -180,9 +180,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* quanlychitieuPoc */,
+				13B07FAE1A68108700A75B9A /* quanlychitieu */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* quanlychitieuPocTests */,
+				00E356EF1AD99517003FC87E /* quanlychitieuTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				4DC5FA0648F16509A7CD86EE /* Pods */,
@@ -195,10 +195,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* quanlychitieu - POC.app */,
-				00E356EE1AD99517003FC87E /* quanlychitieuPocTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* quanlychitieuPoc-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* quanlychitieuPoc-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* Quan Ly Chi Tieu.app */,
+				00E356EE1AD99517003FC87E /* quanlychitieuTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* quanlychitieu-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* quanlychitieu-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -206,9 +206,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* quanlychitieuPocTests */ = {
+		00E356ED1AD99517003FC87E /* quanlychitieuTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "quanlychitieuPocTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "quanlychitieuTests" */;
 			buildPhases = (
 				7A2293B827B2AA3A5E760E86 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -221,14 +221,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = quanlychitieuPocTests;
-			productName = quanlychitieuPocTests;
-			productReference = 00E356EE1AD99517003FC87E /* quanlychitieuPocTests.xctest */;
+			name = quanlychitieuTests;
+			productName = quanlychitieuTests;
+			productReference = 00E356EE1AD99517003FC87E /* quanlychitieuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* quanlychitieuPoc */ = {
+		13B07F861A680F5B00A75B9A /* quanlychitieu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "quanlychitieuPoc" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "quanlychitieu" */;
 			buildPhases = (
 				1C351D531BE4E86D0DE74A60 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -242,14 +242,14 @@
 			);
 			dependencies = (
 			);
-			name = quanlychitieuPoc;
-			productName = quanlychitieuPoc;
-			productReference = 13B07F961A680F5B00A75B9A /* quanlychitieu - POC.app */;
+			name = quanlychitieu;
+			productName = quanlychitieu;
+			productReference = 13B07F961A680F5B00A75B9A /* Quan Ly Chi Tieu.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* quanlychitieuPoc-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* quanlychitieu-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieuPoc-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieu-tvOS" */;
 			buildPhases = (
 				FFAF223A90E259AD831486DE /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -262,14 +262,14 @@
 			);
 			dependencies = (
 			);
-			name = "quanlychitieuPoc-tvOS";
-			productName = "quanlychitieuPoc-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* quanlychitieuPoc-tvOS.app */;
+			name = "quanlychitieu-tvOS";
+			productName = "quanlychitieu-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* quanlychitieu-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* quanlychitieuPoc-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* quanlychitieu-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieuPoc-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieu-tvOSTests" */;
 			buildPhases = (
 				7AAD7945F5C628362183E37B /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -281,9 +281,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "quanlychitieuPoc-tvOSTests";
-			productName = "quanlychitieuPoc-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* quanlychitieuPoc-tvOSTests.xctest */;
+			name = "quanlychitieu-tvOSTests";
+			productName = "quanlychitieu-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* quanlychitieu-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -314,7 +314,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "quanlychitieuPoc" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "quanlychitieu" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -328,10 +328,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* quanlychitieuPoc */,
-				00E356ED1AD99517003FC87E /* quanlychitieuPocTests */,
-				2D02E47A1E0B4A5D006451C7 /* quanlychitieuPoc-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* quanlychitieuPoc-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* quanlychitieu */,
+				00E356ED1AD99517003FC87E /* quanlychitieuTests */,
+				2D02E47A1E0B4A5D006451C7 /* quanlychitieu-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* quanlychitieu-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -400,7 +400,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-quanlychitieuPoc-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-quanlychitieu-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -436,7 +436,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-quanlychitieuPoc-quanlychitieuPocTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-quanlychitieu-quanlychitieuTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +458,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-quanlychitieuPoc-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-quanlychitieu-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,7 +471,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-quanlychitieuPoc/Pods-quanlychitieuPoc-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-quanlychitieu/Pods-quanlychitieu-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -512,7 +512,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quanlychitieuPoc/Pods-quanlychitieuPoc-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quanlychitieu/Pods-quanlychitieu-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F9B8EB6BAACE110102F9559F /* [CP] Copy Pods Resources */ = {
@@ -521,7 +521,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-quanlychitieuPoc-quanlychitieuPocTests/Pods-quanlychitieuPoc-quanlychitieuPocTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-quanlychitieu-quanlychitieuTests/Pods-quanlychitieu-quanlychitieuTests-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -562,7 +562,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quanlychitieuPoc-quanlychitieuPocTests/Pods-quanlychitieuPoc-quanlychitieuPocTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-quanlychitieu-quanlychitieuTests/Pods-quanlychitieu-quanlychitieuTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -618,7 +618,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-quanlychitieuPoc-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-quanlychitieu-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -632,7 +632,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* quanlychitieuPocTests.m in Sources */,
+				00E356F31AD99517003FC87E /* quanlychitieuTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,7 +658,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* quanlychitieuPocTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* quanlychitieuTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,12 +667,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* quanlychitieuPoc */;
+			target = 13B07F861A680F5B00A75B9A /* quanlychitieu */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* quanlychitieuPoc-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* quanlychitieu-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -684,7 +684,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = quanlychitieuPoc;
+			path = quanlychitieu;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -692,14 +692,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A79397818C1CCCDB6BBBE52 /* Pods-quanlychitieuPoc-quanlychitieuPocTests.debug.xcconfig */;
+			baseConfigurationReference = 8A79397818C1CCCDB6BBBE52 /* Pods-quanlychitieu-quanlychitieuTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = quanlychitieuPocTests/Info.plist;
+				INFOPLIST_FILE = quanlychitieuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -709,17 +709,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieuPoc.app/quanlychitieuPoc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieu.app/quanlychitieu";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0752E02D50E9DE83AF6BA620 /* Pods-quanlychitieuPoc-quanlychitieuPocTests.release.xcconfig */;
+			baseConfigurationReference = 0752E02D50E9DE83AF6BA620 /* Pods-quanlychitieu-quanlychitieuTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = quanlychitieuPocTests/Info.plist;
+				INFOPLIST_FILE = quanlychitieuTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -729,22 +729,22 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieuPoc.app/quanlychitieuPoc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieu.app/quanlychitieu";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC7AA0B8FCF5A74455B2844D /* Pods-quanlychitieuPoc.debug.xcconfig */;
+			baseConfigurationReference = AC7AA0B8FCF5A74455B2844D /* Pods-quanlychitieu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = quanlychitieuPoc/quanlychitieuPoc.entitlements;
+				CODE_SIGN_ENTITLEMENTS = quanlychitieu/quanlychitieu.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 227Z6VVGRK;
-				INFOPLIST_FILE = quanlychitieuPoc/Info.plist;
+				INFOPLIST_FILE = quanlychitieu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 0.0.30;
 				OTHER_LDFLAGS = (
@@ -752,9 +752,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.glance.quanlychitieuPoc;
-				PRODUCT_NAME = "quanlychitieu - POC";
-				PROVISIONING_PROFILE_SPECIFIER = quanlychitieuPoc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glance.quanlychitieu;
+				PRODUCT_NAME = "Quan Ly Chi Tieu";
+				PROVISIONING_PROFILE_SPECIFIER = quanlychitieu;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -762,15 +762,15 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C2144E798BB7713FFCCE6B7 /* Pods-quanlychitieuPoc.release.xcconfig */;
+			baseConfigurationReference = 7C2144E798BB7713FFCCE6B7 /* Pods-quanlychitieu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = quanlychitieuPoc/quanlychitieuPoc.entitlements;
+				CODE_SIGN_ENTITLEMENTS = quanlychitieu/quanlychitieu.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 227Z6VVGRK;
-				INFOPLIST_FILE = quanlychitieuPoc/Info.plist;
+				INFOPLIST_FILE = quanlychitieu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 0.0.30;
 				OTHER_LDFLAGS = (
@@ -778,9 +778,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.glance.quanlychitieuPoc;
-				PRODUCT_NAME = "quanlychitieu - POC";
-				PROVISIONING_PROFILE_SPECIFIER = quanlychitieuPoc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.glance.quanlychitieu;
+				PRODUCT_NAME = "Quan Ly Chi Tieu";
+				PROVISIONING_PROFILE_SPECIFIER = quanlychitieu;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -788,7 +788,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1033CC06FB46A8FD1EF1A8D /* Pods-quanlychitieuPoc-tvOS.debug.xcconfig */;
+			baseConfigurationReference = E1033CC06FB46A8FD1EF1A8D /* Pods-quanlychitieu-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -799,14 +799,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "quanlychitieuPoc-tvOS/Info.plist";
+				INFOPLIST_FILE = "quanlychitieu-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieuPoc-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieu-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -816,7 +816,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E804EAA3CD735BAC7AA37BB9 /* Pods-quanlychitieuPoc-tvOS.release.xcconfig */;
+			baseConfigurationReference = E804EAA3CD735BAC7AA37BB9 /* Pods-quanlychitieu-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -827,14 +827,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "quanlychitieuPoc-tvOS/Info.plist";
+				INFOPLIST_FILE = "quanlychitieu-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieuPoc-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieu-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -844,7 +844,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DA2A5376289A4353744619F /* Pods-quanlychitieuPoc-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 7DA2A5376289A4353744619F /* Pods-quanlychitieu-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -854,24 +854,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "quanlychitieuPoc-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "quanlychitieu-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieuPoc-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieu-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieuPoc-tvOS.app/quanlychitieuPoc-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieu-tvOS.app/quanlychitieu-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2EBA8584F8FD34CA0724C9F /* Pods-quanlychitieuPoc-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = D2EBA8584F8FD34CA0724C9F /* Pods-quanlychitieu-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -881,17 +881,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "quanlychitieuPoc-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "quanlychitieu-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieuPoc-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.quanlychitieu-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieuPoc-tvOS.app/quanlychitieuPoc-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quanlychitieu-tvOS.app/quanlychitieu-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -998,7 +998,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "quanlychitieuPocTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "quanlychitieuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1007,7 +1007,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "quanlychitieuPoc" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "quanlychitieu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1016,7 +1016,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieuPoc-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieu-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1025,7 +1025,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieuPoc-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "quanlychitieu-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1034,7 +1034,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "quanlychitieuPoc" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "quanlychitieu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
