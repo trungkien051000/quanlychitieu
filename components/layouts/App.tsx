@@ -9,7 +9,7 @@ const App: IAppComponent<IAppComponentProps> = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        setLanguage('jp');
+        setLanguage('vi');
     }, []);
 
     const setLanguage = (locale: string) => {

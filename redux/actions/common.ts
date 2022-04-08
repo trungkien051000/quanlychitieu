@@ -2,7 +2,7 @@ import { SET_LOCALE, SET_MODAL, SET_NAVBAR_BACK, SET_NAVBAR_SUBMIT, SET_TOAST } 
 import i18n from 'i18n-js';
 
 // Action set active locale
-export const setLocale = (data: string = 'jp') => {
+export const setLocale = (data: string = 'vi') => {
     i18n.locale = data;
     return {
         type: SET_LOCALE,

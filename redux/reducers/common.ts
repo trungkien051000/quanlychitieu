@@ -1,6 +1,6 @@
 import { SET_LOCALE, SET_MODAL, SET_NAVBAR_BACK, SET_NAVBAR_SUBMIT, SET_TOAST } from '@redux/actions/type';
 
-const localeReducer = (state: string = 'jp', action: ILocaleReduxAction) => {
+const localeReducer = (state: string = 'vi', action: ILocaleReduxAction) => {
     switch (action.type) {
         case SET_LOCALE:
             return action.data;
