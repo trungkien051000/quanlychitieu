@@ -69,7 +69,7 @@ const Modal: IModalComponent<IModalComponentProps> = () => {
                                     />
                                 )}
                                 <Button
-                                    text={modal.buttonCancelText ?? trans.common.cancel}
+                                    text={modal.buttonCancelText ?? ''}
                                     style={[styles.modal_button_cancel, modal.buttonText ? styles.marginLeft20 : {}]}
                                     styleText={[styles.color_black]}
                                     onPress={() => (modal.onPressCancelButton ? modal.onPressCancelButton() : handleModalShow())}
